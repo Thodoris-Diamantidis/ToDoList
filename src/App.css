@@ -1,3 +1,43 @@
+
+/* TO DO LIST CSS */
+.todolist h1{
+  text-align: center;
+  font-size: 55px;
+}
+.todolist{
+  border: 2px solid black;
+}
+.todolist .input-add{
+  display: block;
+  margin: auto;
+  background-color: rgb(194, 233, 219);
+}
+
+.todolist .checkbox-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  border: solid black;
+  border-radius: 10px;
+}
+.todolist .checkbox-container ul{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+.todolist .checkbox-container li {
+  margin: 10px 0;
+  padding: 0;
+}
+
+/* CHECKBOX CSS */
+
+
+/* APP CSS */
 .App {
   text-align: center;
 }
