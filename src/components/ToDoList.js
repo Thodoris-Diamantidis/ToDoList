@@ -64,7 +64,7 @@ export function ToDoList() {
 
   return (
     <section className='todolist'>
-        <div>
+        <div className='maindiv'>
             <h1>THING TO DO</h1>
             <input
               className="input-add"
@@ -73,7 +73,8 @@ export function ToDoList() {
               onKeyDown={handleKeyDown}
             />
 
-            {tasks.length > 0 && (
+
+
             <div className='checkbox-container'>
               <ul className='ks-cboxtags'>
                 {tasks.map((task, index) => (
@@ -90,7 +91,6 @@ export function ToDoList() {
                 ))}
               </ul>
             </div>
-            )}
         </div>
     </section>
   )
